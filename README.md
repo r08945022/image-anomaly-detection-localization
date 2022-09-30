@@ -33,6 +33,10 @@ checkpoints will be saved in ckpt folder
 │   ├── subpath
 │   │   ├── model.pt
 ```
+## trained models
+the trained models for our experiment results were uploaded in ```ckpt``` folder,  
+due to file size limits on github,  
+better download [here](https://drive.google.com/drive/folders/1PXFR3b30GrkI1YsP1OfVtdiRmFzlho6i?usp=sharing)  
 
 ## inference
 two ways for aggregating multi-level features:
@@ -55,10 +59,7 @@ python inference_multiplication.py --c leather --p leather-wave50
 
 # Code Reference
 
-[WaveCNet](https://github.com/LiQiufu/WaveCNet)
-
-[anomalib](https://github.com/openvinotoolkit/anomalib)
-
-[hcw-00: PatchCore](https://github.com/hcw-00/PatchCore_anomaly_detection)
-
-[Runinho: CutPaste](https://github.com/Runinho/pytorch-cutpaste)
+[WaveCNet](https://github.com/LiQiufu/WaveCNet)  
+[anomalib](https://github.com/openvinotoolkit/anomalib)  
+[hcw-00: PatchCore](https://github.com/hcw-00/PatchCore_anomaly_detection)  
+[Runinho: CutPaste](https://github.com/Runinho/pytorch-cutpaste)  
